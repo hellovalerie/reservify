@@ -83,21 +83,21 @@
         <div class="col-md-6">
          <div class="input-group input-group-lg">
            <span class="input-group-addon" id="sizing-addon1">Name</span>
-           <input type="text" class="form-control" placeholder="Your name">
+           <input id="name" name="name" type="text" class="form-control" placeholder="Your name">
          </div>
        </div>
 
        <div class="col-md-6">
          <div class="input-group input-group-lg">
            <span class="input-group-addon" id="sizing-addon1">Email</span>
-           <input type="text" class="form-control" placeholder="Your email address">
+           <input id="email" name="email" type="text" class="form-control" placeholder="Your email address">
          </div>
        </div>
      </div>
      <div class="clearfix"></div>
      <br/>
      <div class="btn-group">
-      <button class="btn btn-danger btn-lg">Register your interest</button>
+      <button class="btn btn-danger btn-lg btn-send" onclick="submit_form();">Register your interest</button>
     </div>
   </div>
   <div class="clearfix"></div>
@@ -108,8 +108,7 @@
 
 
 <!-- jQuery (Bootstrap JS plugins depend on it) -->
-<script src="./js/jquery-1.11.3.min.js"></script>
-<script src="./js/bootstrap.min.js"></script>
-<script src="./js/script.js"></script>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
